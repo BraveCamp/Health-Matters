@@ -8,73 +8,76 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Modern Business - Start Bootstrap Template</title>
+    <title>Health Matters</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="css/modern-business.css" rel="stylesheet">
+    <link href="css/Elise2.css" rel="stylesheet">
+    <link href="css/Elise.css" rel="stylesheet">
 
 </head>
 
 <body>
 
     <!-- Navigation -->
-    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark fixed-top">
-        <a class="navbar-brand" href="index.html">Start Bootstrap</a>
-        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="about.html">About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="services.html">Services</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact</a>
+    <nav class="navbar fixed-top navbar-expand-lg white fixed-top">
+        <a class="navbar-brand" href="index.html">Home</a>
+            <button class="navbar-toggler navbar-toggler-right" type="button" 
+                data-toggle=" collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto navbar-brand">
+                    <li class="nav-item">
+                    <a class="nav-link white" href="reminders.html">Reminders</a>
                 </li>
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownPortfolio" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Portfolio
+                    <a class="nav-link dropdown-toggle white" href="#" id="navbarDropdownBlog" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Daily Tips
+                    </a>
+
+                    <div class="dropdown-menu dropdown-me1nu-right" aria-labelledby="navbarDropdownBlog">
+                        <a class="dropdown-item" href="nutritiousfoods.html">Nutritous Foods</a>
+                        <a class="dropdown-item" href="drinks.html">Healthy Drinks</a>
+                        <a class="dropdown-item" href="homeremedies.html">Home Remedies</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle white" href="#" id="navbarDropdownPortfolio" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Work-out
                         </a>
                     <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownPortfolio">
-                        <a class="dropdown-item" href="portfolio-1-col.html">1 Column Portfolio</a>
-                        <a class="dropdown-item" href="portfolio-2-col.html">2 Column Portfolio</a>
-                        <a class="dropdown-item" href="portfolio-3-col.html">3 Column Portfolio</a>
-                        <a class="dropdown-item" href="portfolio-4-col.html">4 Column Portfolio</a>
-                        <a class="dropdown-item" href="portfolio-item.html">Single Portfolio Item</a>
+                        <a class="dropdown-item" href="stretchsfinal.html">Stretches</a>
+                        <a class="dropdown-item" href="5 minute work-outambria.html">5 Minute Work-Out</a>
+                        <a class="dropdown-item" href="7 mintue work-outambria.html">7 Minute Work-Out</a>
+                        <a class="dropdown-item" href="portfolio-4-col.html">10 Minute Work-Out</a>
                     </div>
                 </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownBlog" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Blog
-                        </a>
-                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownBlog">
-                        <a class="dropdown-item" href="blog-home-1.html">Blog Home 1</a>
-                        <a class="dropdown-item" href="blog-home-2.html">Blog Home 2</a>
-                        <a class="dropdown-item" href="blog-post.html">Blog Post</a>
-                    </div>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownBlog" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Other Pages
-                        </a>
-                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownBlog">
-                        <a class="dropdown-item" href="full-width.html">Full Width Page</a>
-                        <a class="dropdown-item" href="sidebar.html">Sidebar Page</a>
-                        <a class="dropdown-item" href="faq.html">FAQ</a>
-                        <a class="dropdown-item" href="404.html">404</a>
-                        <a class="dropdown-item" href="pricing.html">Pricing Table</a>
-                    </div>
+                
+                <li>
+                    <a class="river" href="#" data-toggle="modal" data-target="#login-modal">Login</a>
                 </li>
             </ul>
         </div>
     </nav>
-
+            <div class="modal fade" id="login-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
+                      <div class="modal-dialog">
+                            <div class="loginmodal-container"><br><br><br>
+                                <h1>Login to Your Account</h1><br>
+                              <form>
+                                <input type="text" name="user" placeholder="Username">
+                                <input type="password" name="pass" placeholder="Password">
+                                <input type="submit" name="login" class="login loginmodal-submit" value="Login">
+                              </form>
+                                
+                              <div class="login-help">
+                                <a href="#">Register</a> - <a href="#">Forgot Password</a>
+                              </div>
+                            </div>
+                        </div>
+                      </div>
     <header>
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
@@ -84,24 +87,26 @@
             </ol>
             <div class="carousel-inner" role="listbox">
                 <!-- Slide One - Set the background image for this slide in the line below -->
-                <div class="carousel-item active" style="background-image: url('http://placehold.it/1900x1080')">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h3>First Slide</h3>
-                        <p>This is a description for the first slide.</p>
+                <div class="carousel-item" style="background-image: url('http://apexwellnessnj.com/wp-content/uploads/2014/04/Glasses-Cups.jpg')"><br><br><br><br>
+                <div class="container">
+                    <div class="drinkwater">
+                        <center><h3> Drink more water. </h3></center>
+                        <center><h4> Most adults need about two quarts of fluid per day to replace normal water loss <br> or approximately six to eight ounce glasses of water each day. </h5></center>
+                    </div>
                     </div>
                 </div>
                 <!-- Slide Two - Set the background image for this slide in the line below -->
-                <div class="carousel-item" style="background-image: url('http://placehold.it/1900x1080')">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h3>Second Slide</h3>
-                        <p>This is a description for the second slide.</p>
-                    </div>
+                <div class="carousel-item" style="background-image: url('http://www.nhs.uk/Livewell/Goodfood/PublishingImages/T_0217_eating-healthily_179013608_A.jpg')">
+                    <div class="edit"><br><br><br><br><br><br><br>
+                        <center><h3> Don’t DIET. Reverse the letters in the word and EDIT what you eat. <h3></center>
+                        <center><h5> Make it a lifestyle change toward healthier foods, not a deprivation plan. </h5></center>
+                     </div>
                 </div>
                 <!-- Slide Three - Set the background image for this slide in the line below -->
-                <div class="carousel-item" style="background-image: url('http://placehold.it/1900x1080')">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h3>Third Slide</h3>
-                        <p>This is a description for the third slide.</p>
+                 <div class="carousel-item active" style="background-image: url('http://www.expertrain.com/SiteAssets/Images/bestfriend.jpg')">
+                    <div class="results"><br><br><br>
+                        <center><h2> Get a fitness friend </h2> </center>
+                        <center><h3> A workout buddy is hugely helpful for keeping motivated. </h3></center>
                     </div>
                 </div>
             </div>
@@ -117,150 +122,105 @@
     </header>
 
     <!-- Page Content -->
-    <div class="container">
+    <div class="elise">
+        <div class="stream">
+            <center> <br>
+            <h1 class="my-4">Welcome to Health Matters!</h1>
+            <h4> Here at Health Matters, we want you to be healthy and happy.<br> With our workouts, daily tips, and medication reminders, you can be living healthy in no time! </h4>
+            </center>
+        
+        <style>
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
 
-        <h1 class="my-4">Welcome to Modern Business</h1>
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
 
-        <!-- Marketing Icons Section -->
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+</style>
+</head>
+<body>
+<br><br><br><br>
+
+
+<center><h1>The Creators</h1></center><br><br>
+
         <div class="row">
-            <div class="col-lg-4 mb-4">
-                <div class="card h-100">
-                    <h4 class="card-header">Card Title</h4>
+            <div class="col-lg-3 mb-4">
+                <div class="card h-100 text-center">
+                    <img class="card-img-top" src="http://angrytrainerfitness.com/wp-content/uploads/2011/05/gym-weights.jpg" height="200" alt="">
                     <div class="card-body">
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque.</p>
-                    </div>
-                    <div class="card-footer">
-                        <a href="#" class="btn btn-primary">Learn More</a>
+                        <h4 class="card-title">Ambria Wilson</h4>
+                        <h6 class="card-subtitle mb-2 text-muted">CO-Creator of Health Matters</h6>
+                        <p class="card-text">Ambria lives in Chicago, Illinios with her family. She is currently 14 and looking forward to highschool. Also she has enjoyed coding at brave camp. Through this app, Ambria hopes that the world benifits with the knowledge of nutrition and why it is important to eat healthy.  </p>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 mb-4">
-                <div class="card h-100">
-                    <h4 class="card-header">Card Title</h4>
+            <div class="col-lg-3 mb-4">
+                <div class="card h-100 text-center">
+                    <img class="card-img-top" src="http://images.cdn2.stockunlimited.net/clipart/alarm-icon_2002724.jpg" height="300" alt="">
                     <div class="card-body">
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis ipsam eos, nam perspiciatis natus commodi similique totam consectetur praesentium molestiae atque exercitationem ut consequuntur, sed eveniet, magni nostrum sint fuga.</p>
-                    </div>
-                    <div class="card-footer">
-                        <a href="#" class="btn btn-primary">Learn More</a>
+                        <h4 class="card-title">Nyla Green</h4>
+                        <h6 class="card-subtitle mb-2 text-muted">CO-Creator of Health Matters</h6>
+                        <p class="card-text">Nyla was born in Indianapolis, Indiana. She currently live in Merrillville, Indiana. She is going to be in 7th grade at Crown Point Christian. Nyla is the youngest of 4 children and is looking forword to going to her new school. </p>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 mb-4">
-                <div class="card h-100">
-                    <h4 class="card-header">Card Title</h4>
+            <div class="col-lg-3 mb-4">
+                <div class="card h-100 text-center">
+                    <img class="card-img-top" src="https://static1.squarespace.com/static/549fce77e4b03939a85f77ff/t/59095f6317bffc90f0e8381f/1493786490371/Fasting%E2%80%94Passing+Fad+or+Fantastic+Jumpstart+for+Health%3F?format=750w" alt="">
                     <div class="card-body">
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque.</p>
-                    </div>
-                    <div class="card-footer">
-                        <a href="#" class="btn btn-primary">Learn More</a>
+                        <h4 class="card-title">Elise Koch</h4>
+                        <h6 class="card-subtitle mb-2 text-muted">Co-Creator of Health Matters</h6>
+                        <p class="card-text">Elise has lived in Chicago, Illinois all her life. She is 13, going into 8th grade, and hopes to attend Jones Collage Prep next year.</p>
                     </div>
                 </div>
             </div>
-        </div>
+            <div class="col-lg-3 mb-4">
+                <div class="card h-100 text-center">
+                    <img class="card-img-top" src="http://www.pakistanwebonline.com/wp-content/uploads/2016/02/Healthy-Food-800x445.jpg" alt="">
+                    <div class="card-body">
+                        <h4 class="card-title">Wisdom Cannon</h4>
+                        <h6 class="card-subtitle mb-2 text-muted">Co-Creator of Health Matters</h6>
+                        <p class="card-text">Born in Chicago, Wisdom is currently a senior at Westinghouse College Prep. Passionatly involved in health, she wants to share her knowledge on nutrition to help make a better world.</p>
+                    </div>
+                </div>
+            </div>
+        </div><br><br>
+        <center><h1>Questions? Problems? Comments?</h1><br>
+        <h3>Contact us at healthmatters561@gmail.com</h3></center><br><br><br>
+
+                    
         <!-- /.row -->
 
-        <!-- Portfolio Section -->
-        <h2>Portfolio Heading</h2>
-
-        <div class="row">
-            <div class="col-lg-4 col-sm-6 portfolio-item">
-                <div class="card h-100">
-                    <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
-                    <div class="card-body">
-                        <h4 class="card-title"><a href="#">Project One</a></h4>
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur eum quasi sapiente nesciunt? Voluptatibus sit, repellat sequi itaque deserunt, dolores in, nesciunt, illum tempora ex quae? Nihil, dolorem!</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-sm-6 portfolio-item">
-                <div class="card h-100">
-                    <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
-                    <div class="card-body">
-                        <h4 class="card-title"><a href="#">Project Two</a></h4>
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-sm-6 portfolio-item">
-                <div class="card h-100">
-                    <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
-                    <div class="card-body">
-                        <h4 class="card-title"><a href="#">Project Three</a></h4>
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos quisquam, error quod sed cumque, odio distinctio velit nostrum temporibus necessitatibus et facere atque iure perspiciatis mollitia recusandae vero vel quam!</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-sm-6 portfolio-item">
-                <div class="card h-100">
-                    <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
-                    <div class="card-body">
-                        <h4 class="card-title"><a href="#">Project Four</a></h4>
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-sm-6 portfolio-item">
-                <div class="card h-100">
-                    <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
-                    <div class="card-body">
-                        <h4 class="card-title"><a href="#">Project Five</a></h4>
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-sm-6 portfolio-item">
-                <div class="card h-100">
-                    <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
-                    <div class="card-body">
-                        <h4 class="card-title"><a href="#">Project Six</a></h4>
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque earum nostrum suscipit ducimus nihil provident, perferendis rem illo, voluptate atque, sit eius in voluptates, nemo repellat fugiat excepturi! Nemo, esse.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- /.row -->
-
-        <!-- Features Section -->
-        <div class="row">
-            <div class="col-lg-6">
-                <h2>Modern Business Features</h2>
-                <p>The Modern Business template by Start Bootstrap includes:</p>
-                <ul>
-                    <li><strong>Bootstrap v4</strong>
-                    </li>
-                    <li>jQuery</li>
-                    <li>Font Awesome</li>
-                    <li>Working contact form with validation</li>
-                    <li>Unstyled page elements for easy customization</li>
-                </ul>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, omnis doloremque non cum id reprehenderit, quisquam totam aspernatur tempora minima unde aliquid ea culpa sunt. Reiciendis quia dolorum ducimus unde.</p>
-            </div>
-            <div class="col-lg-6">
-                <img class="img-fluid rounded" src="http://placehold.it/700x450" alt="">
-            </div>
-        </div>
-        <!-- /.row -->
-
-        <hr>
-
-        <!-- Call to Action Section -->
-        <div class="row mb-4">
-            <div class="col-md-8">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, expedita, saepe, vero rerum deleniti beatae veniam harum neque nemo praesentium cum alias asperiores commodi.</p>
-            </div>
-            <div class="col-md-4">
-                <a class="btn btn-lg btn-secondary btn-block" href="#">Call to Action</a>
-            </div>
-        </div>
-
-    </div>
+    
     <!-- /.container -->
 
     <!-- Footer -->
     <footer class="py-5 bg-dark">
-        <div class="container">
-            <p class="m-0 text-center text-white">Copyright &copy; Your Website 2017</p>
-        </div>
+    <p class="m-0 text-center text-white">Copyright &copy; Health Matters 2017</p>
         <!-- /.container -->
     </footer>
 
@@ -268,6 +228,9 @@
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/popper/popper.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Contact form JavaScript -->
+    <!-- Do not edit these files! In order to set the email address and subject line for the contact form go to the bin/contact_me.php file. -->
 
 </body>
 
